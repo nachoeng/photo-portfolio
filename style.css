@@ -1,0 +1,92 @@
+body {
+    font-family: Cooper Hewitt;
+    font-size: 16px;
+    color: white;
+    margin: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    background-image: url("images/sally_1.jpg");
+    /*
+        our background image will cover the full width and height or our secion without repeating the image
+    */
+    background-size: cover;
+    background-position: center;
+    /*
+    this fixes the background to the viewport instead of to the section
+     */
+    background-attachment: fixed;
+    /*
+    vh stands for viewpoint height, meaning that it will be relative to the height of the browser window
+    the section is the exact height of our window
+    */
+    height: 100vh;
+}
+
+
+header {
+    /*
+    using fixed position allows us to precisely position an element in relation to the browser viewport
+     */
+    position: fixed;
+    top: 20px;
+    left: 40px;
+}
+
+footer {
+    font-size: 18px;
+    position: fixed;
+    bottom: 20px;
+    left: 40px;
+}
+
+p {
+    font-size: 21px;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+html {
+    height: 100%;
+}
+
+footer a {
+    margin-right: 5px;
+}
+
+a:hover{
+    color: grey;
+}
+
+.image_2{
+    background-image: url("images/sally_2.jpg");
+}
+
+.image_3{
+    background-image: url("images/sally_3.jpg");
+}
+.image_4{
+    background-image: url("images/sally_4.jpg");
+}
+.image_5{
+    background-image: url("images/sally_5.jpg");
+}
+.image_6{
+    background-image: url("images/sally_6.jpg");
+}
+.image_7{
+    background-image: url("images/sally_7.jpg");
+}
+.image_8{
+    background-image: url("images/sally_8.jpg");
+}
+.image_9{
+    background-image: url("images/gaston-abascal-8F-6pXyQyLU-unsplash.jpg");
+}
